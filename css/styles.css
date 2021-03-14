@@ -210,7 +210,7 @@ a {
 
 .modal {
   padding: 40px;
-  /* display: flex; */
+  display: block;
   min-width: 581px;
   min-height: 582px;
   position: absolute;
@@ -250,12 +250,13 @@ a {
   margin-bottom: 12px ;
 }
 .Form {
+  
   padding: 20px;
   margin: 20px;
 }
 .Form-field {
-  /* display: block; */
-  position: relative;
+  display: block;
+ 
   margin-bottom: 20px;
 }
 .form-label {
@@ -266,6 +267,7 @@ a {
   transition: transform 250ms linear;
 }
 .form-input {
+   position: relative;
   width: 100%;
   margin: 0px;
   padding: 16px 20px;
