@@ -209,6 +209,8 @@ a {
 }
 
 .modal {
+  padding: 40px;
+  /* display: flex; */
   min-width: 581px;
   min-height: 582px;
   position: absolute;
@@ -238,6 +240,59 @@ a {
   background-color: white;
   justify-content: center;
   align-items: center;
+}
+.form-title {
+  font-family: "roboto";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  margin-bottom: 12px ;
+}
+.Form {
+  padding: 20px;
+  margin: 20px;
+}
+.Form-field {
+  /* display: block; */
+  position: relative;
+  margin-bottom: 20px;
+}
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  transition: transform 250ms linear;
+}
+.form-input {
+  width: 100%;
+  margin: 0px;
+  padding: 16px 20px;
+  font: inherit;
+  border-radius: 3px;
+  border: solid #2a2a2a;
+}
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
+  color: tomato;
+  transform: translateY(-50px);
+  transform: translateX(-20px);
+}
+.icon {
+  position: absolute;
+  top: 50%px;
+  left: 19px;
+
+  transform: translateY(-50%);
+
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: wheat;
+}
+.form-input:focus ~ .icon {
+  background-color: teal;
 }
 
 /* --------Блок лапші--------- */
