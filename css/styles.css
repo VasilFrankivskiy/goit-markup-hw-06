@@ -62,6 +62,7 @@ a {
   letter-spacing: 0.03;
   line-height: 1.15;
 }
+
 .logo-studio {
   padding-right: 43px;
   font-family: "Raleway";
@@ -184,6 +185,7 @@ a {
 .hide {
   height: 0px;
   overflow: hidden;
+  /* -----М-о-д-а-л-к-а------- */
 }
 .backdrop {
   position: fixed;
@@ -219,7 +221,6 @@ a {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transform: translate(-50%, -50%) scale(1);
-
   transition: transform 250ms var(--cubic);
 }
 
@@ -513,6 +514,37 @@ a {
 }
 .con-footer-link {
   width: 206px;
+}
+.subscription {
+  margin-left: 50px;
+}
+.sing-title {
+  color: #ffffff;
+  font-family: "roboto";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.sign-imput {
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: transparent;
+  padding: 15px;
+}
+.sign-imput::placeholder {
+  font-family: "roboto";
+  font-size: 16px;
+  font-weight: 400;
+}
+.sign {
+  color: #ffffff;
+  background-color: var(--blue-text);
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 10px 10px 29px;
 }
 
 /* -------------------------- */
