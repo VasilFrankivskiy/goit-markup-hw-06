@@ -87,40 +87,65 @@
             <p class="form-title">Оставьте свои данные, мы вам перезвоним</p>
 
             <form class="form">
-              <div class="form-field">
+              <label class="form-field">
                 <input
                   type="text"
                   class="form-input"
                   name="name"
-                  id="name"
                   placeholder=" "
-                  autofocus
+                  autocomplete="off"
+                />
+                <span class="form-label"> Имя</span>
+
+                <svg class="icon" width="18" heigth="18">
+                  <use href="./images/icons.svg#person"></use>
+                </svg>
+              </label>
+
+              <label class="form-field">
+                <input
+                  type="tel"
+                  class="form-input"
+                  name="tel"
+                  placeholder=" "
+                  autocomplete="off"
+                />
+                <span class="form-label">Телефон</span>
+                <svg class="icon" width="18" heigth="18">
+                  <use href="./images/icons.svg#phone"></use>
+                </svg>
+              </label>
+
+              <label class="form-field">
+                <input
+                  type="email"
+                  class="form-input"
+                  name="email"
+                  id="email"
+                  placeholder=" "
+                  autocomplete="off"
                 />
 
-                <label for="name" class="form-label">Имя</label>
+                <span class="form-label">Почта</span>
 
-                <!-- <svg>
-                                    <use>
+                <svg class="icon" width="18" heigth="18">
+                  <use href="./images/icons.svg#mail"></use>
+                </svg>
+              </label>
 
-                                    </use>
-                                </svg> -->
+              <div class="form-field">
+                <div class="coment">Комментарий</div>
+                <textarea
+                  class="form-textarea"
+                  name="textarea"
+                  rows="8"
+                  placeholder="Введите текст"
+                >
+                </textarea>
               </div>
-
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
             </form>
           </div>
         </div>
-
-        <!-- <form class="js-speaker-form">
-                <label for="name"></label>
-                <input type="text" name="" id="name">
-                <input type="tel" name="tel">
-                <button type="submit">Заявка</button>
-            </form>
-             -->
       </section>
       <!--------------------Кінець Блок заказу послуги----------------------------------->
 
