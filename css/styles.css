@@ -258,13 +258,14 @@ a {
   margin-bottom: 30px ;
 }
 .form {
-     width: 100%;
-     margin-right: auto;
-     margin-left: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+ 
 }
 
 .form-field {
-  display: flex;
+  display: block;
   position: relative;
   margin-bottom: 28px;
  
@@ -307,7 +308,7 @@ a {
   
 }
 .form-textarea {
-  position: absolute;
+  
   width: 100%;
   border: 1px solid var(--border-modal-color);
   padding: 12px;
@@ -315,12 +316,13 @@ a {
   resize:none;
    
 }
-.form-field .coment {
-  position: absolute;
-  top: -50%;
-  left: 0px;
+.form-field .coment {  
+  margin-right: auto;
+  top: -50%;  
   color:var(--grey-text);
-  transform: translateY(-20px);
+  transform: translateY(-21px);
+  
+  
 }
 .form-textarea::placeholder {
   font-family: "Roboto";
