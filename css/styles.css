@@ -37,7 +37,7 @@ a {
 
   align-items: center;
   text-align: center;
-  /* padding: 24px 0; */
+ 
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -97,11 +97,8 @@ a {
   bottom: -1px;
 }
 .nav-logo {
-  margin-left: 50px;
-  /* justify-content: center; */
-  /* align-items: center; */
-  padding: 32px 0;
-  /* padding-left: 50px; */
+  margin-left: 50px; 
+  padding: 32px 0;  
   font-family: "roboto";
   font-size: 14px;
   font-weight: 500;
@@ -673,7 +670,7 @@ a {
 .footer-title {
   color: var(--white-text);
   text-transform: uppercase;
-
+  margin-bottom: 20px;
   font-family: "roboto";
   font-size: 14px;
   font-weight: 700;
@@ -683,10 +680,12 @@ a {
 .con-footer-link {
   width: 206px;
 }
+/* ---------Подписка---------- */
 .subscription {
   margin-left: 50px;
 }
 .sing-title {
+ 
   color: #ffffff;
   font-family: "roboto";
   font-size: 14px;
@@ -694,6 +693,8 @@ a {
   text-transform: uppercase;
 }
 .sign-imput {
+  width:358px ;
+  margin-top: 20px;
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: transparent;
@@ -703,8 +704,14 @@ a {
   font-family: "roboto";
   font-size: 16px;
   font-weight: 400;
+  
 }
 .sign {
+    justify-content: center;
+  text-align: center;
+  margin-left: 12px;
+  border: 0;
+  border-radius:4px ;
   color: #ffffff;
   background-color: var(--blue-text);
   font-family: "Roboto";
@@ -712,9 +719,15 @@ a {
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  padding: 10px 10px 10px 29px;
+  padding: 6px 0 10px 29px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
-
+.svg-litachok {
+ 
+  margin-right: 28px;
+  margin-left: 10px;
+  transform: translateY(7px);
+}
 /* -------------------------- */
 /* --------Portfolio ---------*/
 /* -------------------------- */
