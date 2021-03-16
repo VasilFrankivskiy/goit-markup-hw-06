@@ -311,6 +311,7 @@ a {
   width: 100%;
   border: 1px solid var(--border-modal-color);
   padding: 12px;
+  display: block;
    
 }
 .form-field .coment {
@@ -362,10 +363,38 @@ a {
   font-size: 14px;
   line-height: 1.714;
 }
+.checkbox {
+  /* appearance: none; */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border:0;
+  padding: 0px;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  
+}
+.accept-label {
+  display: flex;
+  align-items: center;
+  
+}
 
-
-
-
+.check-icon {
+  margin-right: 10px;
+  justify-content: center;
+  display: inline-block;  
+  border: 1px solid black;
+  border-radius: 2px;
+  
+}
+.checkbox:checked + .check-icon {
+  background-size: contain;
+  background-origin: border-box;
+  background-color: aqua;
+  
+}
 
 
 /* --------Блок лапші--------- */
